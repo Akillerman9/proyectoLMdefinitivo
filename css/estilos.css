@@ -1,0 +1,57 @@
+/*Estilos hechos para la formación de la página */
+/*Estilos para el cuerpo de la página*/
+body{font-family: "Cambria", serif; 
+color: #181DB7; 
+font-size: 80%; 
+text-align: justify;}
+
+/*Estilos para los titulos de las noticias*/
+h2.noticias{color: #189ED7; 
+font-family: "Cambria", serif; 
+text-align: center;}
+
+/*Estilos para el buscador y otras páginas de interés*/
+p.paginas{background: url('../imagenes/header_barralat.png'); 
+font-family: "Cambria"; 
+color: white; 
+font-weight: bold; 
+font-size: 80%; 
+text-align: left; 
+margin-left: 13px;}
+
+/*Estilo para el input*/
+#search{
+        width: 82%;
+    }
+
+/*Estilos para el contenedor*/
+#contenedor {width: 100%; 
+height: 100%;}
+
+/*Estilos para la cabecera de la página*/
+#cabecera {width: 100%; 
+height: 10%; 
+text-align: center; 
+background: url('../imagenes/titulo.jpg') no-repeat center;}
+
+/*Estilos para el lado izquierdo de la página que habla sobre otras páginas web*/
+#paginas {float: left; 
+width: 30%;}
+
+/*Estilos para el lado derecho de la página que habla sobre las noticias*/
+#contenido {
+	float: left;
+	overflow: auto;
+	margin: 0px 0px 0px 15px;
+	width: 65%;}
+
+/*Estilos para las imágenes de las noticias*/
+div.imagenes{text-align: center;}
+
+/*Estilos para el pie de página*/
+p.pie{font-family: "Cambria"; 
+font-weight: bold; 
+color: #189ED7; 
+font-size: 80%;}
+			
+			

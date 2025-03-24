@@ -1,0 +1,85 @@
+/*Responsive para tablets y moviles*/
+
+/*Ajustes para pantallas de mínimo 300 píxeles*/
+@media screen and (min-width: 300px)
+{
+	#contenido {
+		font-size: 80%; float: left; width: 65%; /*El font-size reduce el tamaño de la fuente según convenga para la pantalla*/
+	}
+	img.noticias {width: 100%; height: auto;} /*La imagen ocupará el 100% del contenedor y el height: auto mantiene la proporción*/
+	#pie {width: 100%; text-align: center;}
+	img.barras{width: 100%;}  /*Ajusta el tamaño de las barras según la pantalla*/
+	img.logos {max-width: 175px; max-height: 60px; width: 100%; height: 100%;} /*Reduce los logos para que no ocupen demasiado espacio*/
+}
+
+/*Ajustes para pantallas de mínimo 500 píxeles*/
+@media screen and (min-width: 500px)
+{
+	#contenido {
+		font-size: 80%; float: left; width: 65%;
+	}
+	img.noticias {width: 100%; height: auto;} /*La imagen ocupará el 100% del contenedor y el height: auto mantiene la proporción*/
+	#pie {width: 100%; text-align: center;}
+	img.barras{width: 100%;}
+	img.logos {max-width: 175px; max-height: 60px; width: 100%; height: 100%;}
+}
+
+/*Ajustes para pantallas de mínimo 700 píxeles*/
+@media screen and (min-width: 700px)
+{
+	#contenido {
+		font-size: 80%; float: left; width: 65%;
+	}
+	img.noticias {width: 100%; height: auto;}
+	#pie {width: 100%; text-align: center;}
+	img.barras{width: 100%;}
+	img.logos {max-width: 175px; max-height: 60px; width: 100%; height: 100%;}
+}
+
+/*Ajustes para pantallas de mínimo 800 píxeles*/
+@media screen and (min-width: 800px)
+{
+	#contenido {
+		font-size: 80%; float: left; width: 65%;
+	}
+	img.noticias {width: 100%; height: auto;}
+	#pie {width: 100%; text-align: center;}
+	img.barras{width: 100%;}
+	img.logos {max-width: 175px; max-height: 60px; width: 100%; height: 100%;}
+}
+
+/*Ajustes para pantallas de mínimo 960 píxeles*/
+@media screen and (min-width: 960px)
+{
+	#contenido {
+		font-size: 80%; float: left; width: 65%;
+	}
+	img.noticias {width: 100%; height: auto;}
+	#pie {width: 100%; text-align: center;}
+	img.barras{width: 100%;}
+	img.logos {max-width: 175px; max-height: 60px; width: 100%; height: 100%;}
+}
+
+/*Ajustes para pantallas de mínimo 1200 píxeles*/
+@media screen and (min-width: 1200px)
+{
+	#contenido {
+		font-size: 80%; float: left; width: 65%;
+	}
+	img.noticias {width: 100%; height: auto;}
+	#pie {width: 100%; text-align: center;}
+	img.barras{width: 100%;}
+	img.logos {max-width: 175px; max-height: 60px; width: 100%; height: 100%;}
+}
+
+/*Ajustes para pantallas de mínimo 1600 píxeles*/
+@media screen and (min-width: 1600px)
+{
+	#contenido {
+		font-size: 80%;	float: left; width: 65%;
+	}
+	img.noticias {width: 100%; height: auto;}
+	#pie {width: 100%; text-align: center;}
+	img.barras{width: 100%;}
+	img.logos {width: 100%; height: 100%;}
+}
